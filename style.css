@@ -1,0 +1,446 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    overscroll-behavior: none;
+}
+html,
+body{
+    font-family: sans-serif;
+    background: rgb(59,51,51);
+    background: radial-gradient(circle, rgba(59,51,51,1) 0%, rgba(0,0,0,0.9865196078431373) 89%);
+    scroll-behavior: smooth;
+}
+a{
+    color: #333;
+    text-decoration: none;
+}
+h1,
+h2,
+h3{
+    padding-bottom: 20px;
+}
+p{
+    margin: 10px 0;
+}
+#navbar{
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(12,6,13,1) 89%);;
+    color: #C38EB4;
+    overflow: auto;
+}
+#navbar a{
+    color: #fff;
+}
+#navbar h1{
+    float: left;
+    padding-top: 20px;
+}
+#navbar ul{
+    float: right;
+    list-style: none;
+}
+#navbar ul li{
+    float: left;
+}
+#navbar ul li a{
+    display: inline-block;
+    padding: 23px;
+    transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
+}
+#navbar ul li a:hover, #navbar ul li a.home:hover{
+    background-color: #333;
+    color: #966c80;
+    border: 1px solid #966c80;
+}
+.container1{
+    max-width: 1200px;
+    margin: auto;
+
+}
+#showcase{
+    background-image: url(img/work3.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /* filter: blur(0.7); */
+    height: 650px;   
+}
+/* #showcase:hover{
+    background-image: url(img/work3kopya1.png);
+} */
+.img{
+    color: #fff;
+}
+#showcase .showcase-content{
+    text-align: center;
+    color: #fff;
+    padding-top: 170px;
+}
+
+#showcase .container1 {
+    text-align: center;
+}
+.showcase-content .btn {
+    background-color: #966c80;
+    color: #fff;
+    padding: 15px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    transition: background-color 0.5s;
+}
+
+.showcase-content .btn:hover {
+    color: #966c80;
+    background-color: #1d1c1c;
+    border: 1px solid #966c80;
+}
+#showcase p{
+    padding-bottom: 3%;
+    font-size: 20px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.body{
+    display: flex;
+    justify-content: space-around;
+    padding: 2% 10%;
+    margin-bottom: 5%;
+}
+
+.text1, .text2, .text3{
+    width: 30%;
+    height: 470px;
+    background-color: #966c80;
+    color: #fff;
+    border-radius: 10px;
+    padding: 10px;
+    transition: background-color 0.5s;
+}
+.text1:hover, .text2:hover, .text3:hover{
+    background-color: #1d1c1c;
+    border: 1px solid #966c80;
+    color: #966c80;
+}
+
+.img1, .img2, .img3{
+    width: 100%;
+    transition: transform 0.3s ease;
+    object-fit: cover; 
+    border-radius: 10px;
+}
+.img1:hover, .img2:hover, .img3:hover{
+    transform: scale(0.9);
+}
+h3{
+    padding-top: 5px;
+}
+.xizmatlar{
+    margin-top: 5%;
+    color: #fff;
+    width: 50%;
+    margin-left: 25%;
+}
+.xizmatlar p{
+    text-align: center;
+}
+.xizmatlar h1, h3{
+    text-align: center;
+}
+.xizmatlar h3{
+    color: #966c80;
+    margin-bottom: 10px;
+}
+.box{
+    width: 50%;
+    height: 500px;
+    background-color: #966c80;
+    margin: 0 auto;
+    border-radius: 10px;
+    margin-top: 7%;
+    color: #fff;
+    margin-bottom: 7%;
+}
+.box h1{
+    padding-top: 20px;
+    padding-left: 30px;
+}
+.box p{
+    padding-left: 30px;
+    padding-bottom: 20px;
+}
+.form-group{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 30px;
+    gap: 10px;
+}
+input{
+    height: 40px;
+    border-radius: 7px;
+    padding-left: 10px;
+    border: 1px solid #966c80;
+    background-color: #1d1c1c;
+    color: #966c80;
+}
+#massage{
+    height: 70px;
+    border-radius: 7px;
+    border: 1px solid #966c80;
+    background-color: #1d1c1c;
+    color: #966c80;
+    padding-left: 10px;
+    padding-top: 10px;
+    margin-bottom: 3%;
+}
+.btn1{
+    width: 30%;
+    height: 40px;
+    margin-left: 35%;
+    background-color: #1d1c1c;
+    color: #966c80;
+    border: 1px solid #966c80;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 7px;
+    transition: background-color 0.5s;
+    text-align: center;
+}
+.btn1:hover{
+    color: #1d1c1c;
+    background-color: #C38EB4;
+    border: 1px solid #1d1c1c;
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 80px;
+    color: white;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(12,6,13,1) 89%);;
+}
+.icon i{
+    padding-left: 5px;
+}
+.sharoitlar{
+    width: 100%;
+    margin: auto;
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 110px;
+    gap: 10px;
+}
+.sharoit1, .sharoit2{
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+}
+.imgs{
+    width: 330px;
+    background-color: #1d1c1c;
+    color: #966c80;
+    border-radius: 10px;
+    border: 1px solid #fff;
+    padding: 15px;
+}
+.img4{
+    width: 300px;
+    height: 200px;
+    transition: transform 0.3s ease;
+    object-fit: cover; 
+    border-radius: 10px;
+}
+.sharoit-taxt h5{
+    text-align: center;
+} 
+.fikrlar{
+    width: 80%;
+    margin: 0 auto;
+    gap: 10px;
+    margin-bottom: 100px;
+}
+.fikr{
+    display: flex;
+    width: 700px;
+    height: 200px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    background-color:#1d1c1c;
+    border: 1px solid #fff;
+    color: #fff;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.rasm{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    object-fit: cover;
+}
+.fikr-text{
+    align-items: center;
+    padding: 20px;
+}
+.fikr-text i{
+    color: rgb(225, 225, 22);
+}
+.fikrlar h3{
+    color: #fff;
+    margin-bottom: 30px;
+}
+.narxlar{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 100px;
+}
+.narx{
+    width: 400px;
+    height: 530px;
+    background-color: #1d1c1c;
+    color: #966c80;
+    border: 1px solid beige;
+    padding: 20px;
+    border-radius: 10px;
+}
+.narx-icon{
+    display: flex;
+    gap: 5px;
+}
+.narx-icon h4{
+    padding-bottom: 10px;
+}
+.narx h4{
+    padding-bottom: 10px;
+}
+.narx button{
+    font-size: 17px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 1px solid #966c80;
+    background-color: #966c80;
+    color: #fff;
+    margin-top: 20px;
+    margin-left: 100px;
+    transition: background-color 0.5s;
+}
+.narx button:hover{
+    background-color: #1d1c1c;
+    color: #966c80;
+    border: 1px solid #966c80;
+}
+.narx-icon i{
+    color: #966c80;
+}
+.soz{
+    color: #fff;
+    width: 800px;
+    text-align: center;
+    margin-left: 350px;
+    margin-bottom: 40px;
+}
+.narx a{
+    color: #fff;
+    transition: color 0.5s;
+}
+.narx a:hover{
+    color: #966c80;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.faq-section {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1440px;
+    padding: 20px;
+    background-color: transparent;
+    color: white;
+    border-radius: 8px;
+margin: 0 auto;
+}
+
+.faq-header {
+    width: 30%;
+    margin-bottom: 20px;
+
+}
+
+.faq-header h1 {
+    font-family: Roboto, sans-serif;
+    font-weight: 900;
+    /* text-transform: uppercase; */
+    font-size: 56px;
+    margin-top: 40px;
+    width: 516px;
+    margin-bottom: 10px;
+    color: rgb(255, 255, 255);
+}
+
+.faq-header p {
+    font-weight: 200;
+    font-size: 21px;
+    color: #000;
+    width: 363px;
+    position: relative;
+    padding-top: 20px;
+}
+
+.faq-item {
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+.faq-items {
+    margin-top: 55px;
+    width: 57%;
+    height: 640px;
+}
+
+.faq-items .faq-question {
+    width: 100%;
+    height: 103px;
+    border: 1px solid black;
+    padding: 15px;
+    border-radius: 32px;
+    background-color: #C38EB4;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.faq-answer {
+    padding: 15px;
+    display: none;
+}
+
+.faq-question:hover {
+    background-color: #966c80;
+}
+
+.faq-icon {
+    font-size: 16px;
+    transition: transform 0.3s ease;
+}
+
+.faq-icon.open {
+    transform: rotate(180deg);
+}
+.faq-header p{
+    color: #C38EB4;
+}
